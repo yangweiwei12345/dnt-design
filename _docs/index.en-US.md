@@ -1,7 +1,7 @@
 ---
 hero:
   title: DNT-DESIGN
-  desc: DNT-DESIGN - 组件库文档
+  desc: DNT-DESIGN - components docs
   actions:
     - text: Getting Started
       link: /components
