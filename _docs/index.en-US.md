@@ -1,7 +1,7 @@
 ---
 hero:
-  title: 云仰科技
-  desc: 云仰科技 - 组件库文档
+  title: DNT-DESIGN
+  desc: DNT-DESIGN - 组件库文档
   actions:
     - text: Getting Started
       link: /components
