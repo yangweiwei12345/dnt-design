@@ -7394,7 +7394,7 @@
         return i;
       });
     var r = n('YS25'),
-      o = { basename: '/dnt-design/' };
+      o = { basename: './dnt-design' };
     window.routerBase && (o.basename = window.routerBase);
     var i = Object({ NODE_ENV: 'production' }).__IS_SERVER
         ? null
