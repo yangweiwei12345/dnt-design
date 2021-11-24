@@ -15,7 +15,7 @@ features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
     title: 主题系统
     desc: 渐进式的自定义主题能力，小到扩展自己的 Markdown 标签，大到自定义完整主题包，全由你定
-footer: 开源 MIT Licensed | Copyright © 2021<br />DNT-DESIGN提供技术支持
+footer: 开源 MIT Licensed | Copyright © 2021<br /> 杨伟韦 <865562227@qq.com> 提供技术支持
 ---
 
 ## Hello @cspire/dnt-design!
