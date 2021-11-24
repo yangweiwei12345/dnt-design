@@ -9,8 +9,9 @@ export default defineConfig({
   resolve: {
     includes: ['_docs', 'src'],
   },
-  publicPath: '/dnt-design/',
-  // base: '/dnt-design',
+  // publicPath: '/dnt-design/',
+  // history: { type: 'hash' },
+  base: '/dnt-design',
   hash: true,
   mode: 'site',
   locales: [
