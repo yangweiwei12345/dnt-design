@@ -18,4 +18,4 @@ features:
 footer: 开源 MIT Licensed | Copyright © 2021<br />云仰科技提供技术支持
 ---
 
-## Hello @cspire/cnt-design!
+## Hello @cspire/dnt-design!

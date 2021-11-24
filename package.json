@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@cspire/cnt-design",
+  "name": "@cspire/dnt-design",
   "version": "1.0.0",
   "scripts": {
     "analyze": "ANALYZE=1 dumi dev",
@@ -29,6 +29,7 @@
     ]
   },
   "dependencies": {
+    "rc-rate": "^2.9.1",
     "react": "^16.12.0 || ^17.0.0"
   },
   "devDependencies": {

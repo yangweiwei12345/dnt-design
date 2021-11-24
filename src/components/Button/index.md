@@ -4,7 +4,7 @@ nav:
   title: 组件
   path: /components
 group:
-  path: 
+  path:
   title: 基础组件
 ---
 
@@ -14,9 +14,9 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from '@cspire/cnt-design';
+import { Button } from '@cspire/dnt-design';
 
-export default () => <Button title="First Demo" >button</Button>;
+export default () => <Button title="First Demo">button</Button>;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo

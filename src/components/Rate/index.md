@@ -1,14 +1,16 @@
 ---
 title: Rate 评分
 group:
-  path: 
+  path:
   title: 基础组件
 ---
 
 # Rate 评分
+
 > 评分组件
 
 ## 何时使用
+
 - 对评价进行展示
 - 对事物进行快速的评级操作
 
@@ -20,11 +22,10 @@ group:
  * desc: 最简单的用法。
  */
 import React from 'react';
-import { Rate } from '@cspire/cnt-design';
+import { Rate } from '@cspire/dnt-design';
 
 export default () => <Rate />;
 ```
-
 
 ```jsx
 /**
@@ -32,11 +33,10 @@ export default () => <Rate />;
  * desc: 支持选中半星
  */
 import React from 'react';
-import { Rate } from '@cspire/cnt-design';
+import { Rate } from '@cspire/dnt-design';
 
 export default () => <Rate allowHalf defaultValue={2.5} />;
 ```
-
 
 ```jsx
 /**
@@ -44,15 +44,15 @@ export default () => <Rate allowHalf defaultValue={2.5} />;
  * desc: 给评分组件加上文案展示
  */
 import React, { useState } from 'react';
-import { Rate } from '@cspire/cnt-design';
+import { Rate } from '@cspire/dnt-design';
 
 const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];
 
 export default () => {
   const [value, setValue] = useState(3);
 
-  const handleChange = value => {
-    setValue(value)
+  const handleChange = (value) => {
+    setValue(value);
   };
 
   return (
@@ -60,9 +60,8 @@ export default () => {
       <Rate tooltips={desc} onChange={handleChange} value={value} />
       {value ? <span className="ant-rate-text">{desc[value - 1]}</span> : ''}
     </span>
-  )
-}
-
+  );
+};
 ```
 
 ```jsx
@@ -71,7 +70,7 @@ export default () => {
  * desc: 只读，无法进行鼠标交互。
  */
 import React from 'react';
-import { Rate } from '@cspire/cnt-design';
+import { Rate } from '@cspire/dnt-design';
 
 export default () => <Rate disabled defaultValue={2.5} />;
 ```
@@ -82,7 +81,7 @@ export default () => <Rate disabled defaultValue={2.5} />;
  * desc: 支持允许或者禁用清除
  */
 import React from 'react';
-import { Rate } from '@cspire/cnt-design';
+import { Rate } from '@cspire/dnt-design';
 
 export default () => (
   <>
@@ -95,14 +94,13 @@ export default () => (
 );
 ```
 
-
 ```jsx
 /**
  * title: 其他字符
  * desc: 可以将星星替换为其他字符，比如字母，数字，字体图标甚至中文。
  */
 import React from 'react';
-import { Rate } from '@cspire/cnt-design';
+import { Rate } from '@cspire/dnt-design';
 
 export default () => (
   <>
@@ -113,14 +111,13 @@ export default () => (
 );
 ```
 
-
 ```jsx
 /**
  * title: 自定义字符
  * desc: 可以使用 (RateProps) => ReactNode 的方式自定义每一个字符。
  */
 import React from 'react';
-import { Rate } from '@cspire/cnt-design';
+import { Rate } from '@cspire/dnt-design';
 
 export default () => (
   <>
@@ -130,6 +127,5 @@ export default () => (
 ```
 
 ## API
+
 <API hideTitle></API>
-
-

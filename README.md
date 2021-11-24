@@ -1,4 +1,4 @@
-# @cspire/cnt-design
+# @cspire/dnt-design
 
 ## Getting Started
 
