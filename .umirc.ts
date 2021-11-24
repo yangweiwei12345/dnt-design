@@ -2,15 +2,22 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: '云仰科技',
-  favicon: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+  favicon:
+    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
+  resolve: {
+    includes: ['_docs', 'src'],
+  },
   mode: 'site',
-  locales: [ ['zh-CN', '中文'], ['en-US', 'English']],    // 第一个代表默认值
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ], // 第一个代表默认值
   navs: [
     {
       title: '指南',
-      path: ''
+      path: '',
     },
     null, // null 值代表保留约定式生成的导航，只做增量配置
     {
@@ -38,6 +45,6 @@ export default defineConfig({
     statsFilename: 'stats.json',
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
-  }
+  },
   // more config: https://d.umijs.org/config
 });
