@@ -10,8 +10,8 @@ export default defineConfig({
     includes: ['_docs', 'src'],
   },
   // publicPath: './',
-  // history: { type: 'hash' },
-  base: '/dnt-design',
+  history: { type: 'hash' },
+  // base: '/dnt-design',
   hash: true,
   mode: 'site',
   locales: [
