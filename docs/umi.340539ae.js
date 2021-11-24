@@ -7394,7 +7394,7 @@
         return i;
       });
     var r = n('YS25'),
-      o = { basename: '/' };
+      o = { basename: '/dnt-design/' };
     window.routerBase && (o.basename = window.routerBase);
     var i = Object({ NODE_ENV: 'production' }).__IS_SERVER
         ? null
@@ -38185,7 +38185,7 @@
               exact: !0,
               meta: {
                 filePath: '_docs/index.en-US.md',
-                updatedTime: 1637738371e3,
+                updatedTime: 1637739035e3,
                 hero: {
                   title: 'DNT-DESIGN',
                   desc: '<div class="markdown"><p>DNT-DESIGN - components docs</p></div>',

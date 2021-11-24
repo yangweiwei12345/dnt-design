@@ -9,6 +9,8 @@ export default defineConfig({
   resolve: {
     includes: ['_docs', 'src'],
   },
+  base: '/dnt-design/',
+  hash: true,
   mode: 'site',
   locales: [
     ['zh-CN', '中文'],
