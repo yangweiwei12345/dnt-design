@@ -50,5 +50,7 @@ export default defineConfig({
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
   },
+  postcssLoader: {},
+
   // more config: https://d.umijs.org/config
 });
